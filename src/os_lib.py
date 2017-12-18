@@ -143,7 +143,7 @@ else:
     if platform.linux_distribution()[0] == 'Red Hat Enterprise Linux Server':
         os_info_dict = rhel_os()
 
-#print os_info_dict
+return os_info_dict
 
 
 
